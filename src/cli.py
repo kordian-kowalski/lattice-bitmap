@@ -1,6 +1,6 @@
 import argparse
 
-from src.generator import generate
+from generator import generate
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--width', type=int, default=2560)
