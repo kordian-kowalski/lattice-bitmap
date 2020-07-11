@@ -8,7 +8,7 @@ parser.add_argument('--height', type=int, default=2560)
 parser.add_argument('--gapsize', type=int, default=5)
 parser.add_argument('--wallsize', type=int, default=3)
 parser.add_argument('--border', type=int, default=20)
-parser.add_argument('--outfile', type=str, default='out.png')
+parser.add_argument('outfile', type=str)
 
 if __name__ == '__main__':
     args = parser.parse_args()
